@@ -78,8 +78,8 @@ Each model was scored on a scale of 1–5 for every prompt based on:
 
 AI Disclosure: AI tools were used for assistance in drafting test prompts and structuring data. A full log of prompts and reflections is included in the final report appendix.
 
-Author: [Your Name]
+Author: Mind
 
 Course: Information and Communication Technologies (ICT)
 
-Date: December 2024
+Date: December 2025
