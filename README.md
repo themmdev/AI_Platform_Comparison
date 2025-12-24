@@ -43,24 +43,24 @@ The platforms were tested using 15 standardized prompts categorized into the fol
 Plaintext
 
 AI_Platform_Comparison/
-├── README.md (overview and methodology)
-├── prompts/
-│   ├── stem_prompts.txt
-│   ├── coding_prompts.txt
-│   ├── creative_prompts.txt
-│   ├── factuality_prompts.txt
-│   └── ethics_prompts.txt
-├── responses/
-│   ├── chatgpt_responses.txt
-│   ├── gemini_responses.txt
-│   ├── claude_responses.txt
-│   └── grok_responses.txt
-├── evaluation/
-│   ├── scoring_matrix.xlsx
-│   └── analysis_notes.md
-└── documentation/
-    ├── methodology.md
-    └── test_log.md
+├── README.md                # Main project overview, research goals, and methodology summary.
+├── prompts/                 # Standardized input data used as control variables for all AI models.
+│   ├── stem_prompts.txt     # Logic and mathematical reasoning test cases for performance evaluation.
+│   ├── coding_prompts.txt   # Technical tasks focusing on code generation and security auditing.
+│   ├── creative_prompts.txt # Stylistic writing and summarization tests for linguistic nuance.
+│   ├── factuality_prompts.txt# Verification tasks to check for real-time data accuracy and hallucinations.
+│   └── ethics_prompts.txt   # Assessment of safety guardrails and algorithmic bias across platforms.
+├── responses/               # Raw experimental data serving as primary evidence for the report.
+│   ├── chatgpt_responses.txt# Unedited outputs from OpenAI GPT-4o for cross-model analysis.
+│   ├── gemini_responses.txt # Unedited outputs from Google Gemini Pro used in comparative scoring.
+│   ├── claude_responses.txt # Unedited outputs from Anthropic Claude 3.5 for evaluation.
+│   └── grok_responses.txt   # Unedited outputs from xAI Grok for the performance benchmarking.
+├── evaluation/              # Data processing and quantitative analysis of the AI outputs.
+│   ├── scoring_matrix.xlsx  # Excel-based comparison tool for generating charts and statistical data.
+│   └── analysis_notes.md    # Qualitative observations and critical reflections on model performance.
+└── documentation/           # Supporting files for report structure and academic transparency.
+    ├── methodology.md       # Detailed explanation of experimental design and tool selection.
+    └── test_log.md          # Timestamped record of test execution for transparency and reproducibility.
 
 📊 Evaluation Rubric
 
