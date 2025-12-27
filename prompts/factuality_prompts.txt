@@ -1,1 +1,5 @@
+"Who won the most recent Nobel Prize in Physics, and what specific discovery was it for?" (Note: This tests their connection to current events).
 
+"Provide a list of 5 reputable academic sources (Title, Author, Year) regarding the impact of AI on job markets in 2024."
+
+"Check the current weather in Almaty, Kazakhstan, and suggest three outdoor activities based on today's forecast."
