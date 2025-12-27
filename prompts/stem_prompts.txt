@@ -1,1 +1,5 @@
+"If I have three baskets, and each basket contains two apples and one orange, but I swap one apple from the first basket with an orange from the third basket, how many pieces of fruit are in each basket now? Explain step-by-step."
 
+"Explain the difference between Quantum Entanglement and Superposition using an analogy a 10-year-old would understand."
+
+"Solve this: A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?"
