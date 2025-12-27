@@ -1,1 +1,5 @@
+"Write a Python script that scrapes a website for headlines and saves them into a CSV file. Use only the 'requests' and 'BeautifulSoup' libraries."
 
+"Explain what this code does and identify any potential security vulnerabilities: [Insert a small snippet of your own code or a basic C++ script]."
+
+"Create a SQL query to find the top 3 employees with the highest salaries in a 'Sales' department from a table named 'Staff'."
