@@ -1,1 +1,610 @@
+"Let's solve this step-by-step.
 
+### Initial setup:
+- There are **three baskets**.
+- **Each basket** starts with **2 apples** and **1 orange**.
+- So, initially:
+  - Basket 1: 2 apples + 1 orange = **3 pieces of fruit**
+  - Basket 2: 2 apples + 1 orange = **3 pieces of fruit**
+  - Basket 3: 2 apples + 1 orange = **3 pieces of fruit**
+
+### The swap:
+You swap **one apple from the first basket** with **an orange from the third basket**.
+
+This means:
+- You take **1 apple out** of Basket 1 and put it into Basket 3.
+- You take **1 orange out** of Basket 3 and put it into Basket 1.
+
+### After the swap:
+
+- **Basket 1**:
+  - Loses 1 apple → now has 1 apple (instead of 2)
+  - Gains 1 orange → now has 2 oranges (instead of 1)
+  - Total: 1 apple + 2 oranges = **still 3 pieces of fruit**
+
+- **Basket 2**:
+  - Nothing was added or removed.
+  - Still: 2 apples + 1 orange = **3 pieces of fruit**
+
+- **Basket 3**:
+  - Loses 1 orange → now has 0 oranges (instead of 1)
+  - Gains 1 apple → now has 3 apples (instead of 2)
+  - Total: 3 apples + 0 oranges = **still 3 pieces of fruit**
+
+### Final answer:
+Each basket still has **3 pieces of fruit**.
+
+The swap only changes the *type* of fruit in Baskets 1 and 3, but the *total number* of pieces in each basket remains the same because you're exchanging one piece for one piece. Basket 2 is unaffected."
+
+"### Superposition: Being in Two States at Once
+
+Imagine you have a magic coin that you flip but don't look at yet. Until you peek, the coin is kind of **both heads and tails at the same time**—it's not decided yet! That's like quantum superposition. Tiny particles (like electrons) can be in two (or more) states simultaneously until we measure them, and then they "pick" one.
+
+
+
+
+
+
+
+
+### Quantum Entanglement: Magical Connected Friends
+
+Now, imagine you have a pair of magic gloves—one left and one right. You put them in separate boxes and send one box to your friend on the other side of the world. When you open your box and see it's the left glove, **instantly** you know your friend's box has the right glove—no matter how far away!
+
+That's quantum entanglement. Two particles become "linked" so that what happens to one instantly affects the other, even if they're super far apart. It's like they share a special connection that works faster than anything we know.
+
+
+
+
+
+
+
+
+### The Big Difference
+
+- **Superposition** is about **one thing** being in two possibilities at once (like the magic coin not landed yet).
+- **Entanglement** is about **two (or more) things** being connected in a spooky way, so measuring one tells you about the other right away.
+
+Superposition is weird for a single particle, while entanglement is extra weird because it links particles together like invisible string! Quantum stuff is super strange, but that's what makes it cool."
+
+
+"Let’s solve this step-by-step. It’s a classic riddle that tricks many people!
+
+### The quick (wrong) answer most people think:
+- The bat costs $1.00 more than the ball.
+- So, if the ball costs $0.10 (10 cents), then the bat would cost $1.10 total minus $0.10 = $1.00.
+- But $1.00 is only $0.90 more than $0.10, not $1.00 more.  
+  → This doesn’t work!
+
+### The correct way:
+Let the cost of the ball be **x** dollars.
+
+Then:
+- The bat costs **x + 1.00** dollars (because it’s $1.00 more than the ball).
+- Together: ball + bat = x + (x + 1.00) = 2x + 1.00
+- This equals $1.10 total.
+
+So the equation is:  
+**2x + 1.00 = 1.10**
+
+Subtract 1.00 from both sides:  
+**2x = 0.10**
+
+Divide by 2:  
+**x = 0.05**
+
+### Check:
+- Ball costs **$0.05** (5 cents).
+- Bat costs $0.05 + $1.00 = **$1.05**.
+- Total: $0.05 + $1.05 = **$1.10** ✓
+- Bat is exactly $1.00 more than the ball ✓
+
+### Final answer:
+The ball costs **$0.05** (5 cents).  
+The bat costs **$1.05**.
+
+The trick is that your brain wants to jump to 10 cents, but the math shows it’s 5 cents!"
+
+
+"### Environmental Impact of Training a 175-Billion Parameter LLM
+
+Training a large language model (LLM) like GPT-3, which has 175 billion parameters, requires significant computational resources, leading to notable energy consumption and carbon emissions. According to studies, the training process for GPT-3 consumed approximately 1,287 megawatt-hours (MWh) of electricity. This is roughly equivalent to the annual electricity use of about 120 average U.S. households (based on an average of ~10.7 MWh per household per year).
+
+In terms of carbon footprint, this training emitted around 502 metric tons of CO₂ equivalent (CO₂e). To put this in perspective:
+- It's comparable to the emissions from driving 112 gasoline-powered cars for a year (assuming average U.S. driving habits and emissions rates).
+- Or the carbon output of flying round-trip from New York to San Francisco about 1,000 times (based on ~0.5 tons CO₂e per passenger per round-trip).
+
+This impact is primarily from the energy-intensive use of data centers with GPUs, and it varies based on the energy mix (e.g., renewable vs. fossil fuels). However, this is a one-time cost per model training—though retraining or fine-tuning adds more. Broader environmental concerns include water usage for cooling data centers and e-waste from hardware, but energy and CO₂ are the main quantifiable metrics here.
+
+### Energy Saved by AI-Driven Smart Grids
+
+AI-driven smart grids use machine learning (including advanced AI techniques) to optimize energy distribution, predict demand, integrate renewables, and reduce waste through real-time analytics. Unlike the one-off training of an LLM, these systems provide ongoing benefits.
+
+Quantitative estimates show substantial savings:
+- Global smart grid deployments, enhanced by AI-based analytics, are projected to achieve cost savings exceeding $125 billion in 2027, up from $33 billion in 2022—a 279% increase—largely by improving network efficiency and reducing energy losses.
+- In terms of emissions, these deployments are expected to reduce CO₂e emissions by nearly 700 million metric tons annually by 2027, up from 214 million metric tons in 2022. This supports decarbonization by better integrating renewables like solar and wind, minimizing reliance on fossil fuels.
+
+To translate this to energy savings: Assuming a global average carbon intensity for electricity of about 0.475 kg CO₂e per kWh, avoiding 700 million metric tons of CO₂e (700 billion kg) equates to roughly 1,470 terawatt-hours (TWh) of avoided fossil fuel-based energy generation annually. This is a rough proxy for "energy saved," as it represents efficiency gains and reduced waste in the grid. For context, 1,470 TWh is about 5% of global annual electricity production (~28,000 TWh), highlighting the scale of impact.
+
+Other studies corroborate AI's role in grid optimization, with examples like 20% reductions in energy costs through better renewable integration in specific systems, though global aggregates like the above provide the broadest view.
+
+### Comparison and Overall Evaluation
+
+- **Scale Difference**: The energy cost of training one 175-billion parameter LLM (1,287 MWh or ~0.0013 TWh) is minuscule compared to the annual energy savings from AI-driven smart grids (estimated at 1,470 TWh globally by 2027). In fact, the grid savings are equivalent to the energy used in training about 1.14 million such LLMs per year.
+- **CO₂ Perspective**: One LLM training emits 502 tons CO₂e, while AI-enhanced smart grids avoid 700 million tons annually—enough to offset the emissions of roughly 1.4 million LLM trainings yearly.
+- **Net Environmental Impact**: While LLM training has a clear negative footprint, it's a relatively small, one-time investment that enables broader AI applications, including those in smart grids. The benefits in energy efficiency and emissions reductions from AI in grids far outweigh the training costs by orders of magnitude (millions of times over annually). This suggests that, on balance, developing such AI models contributes positively to environmental goals, provided data centers shift to renewables and efficiency improves.
+- **Caveats**: Smart grids use various AI (not exclusively LLMs), so the link is indirect. Total AI energy use (including inference) is growing, but applications like grids demonstrate potential for net-positive impact. Future models may become more efficient, reducing training costs further."
+
+
+"```python
+import requests
+from bs4 import BeautifulSoup
+import csv
+from datetime import datetime
+
+# Configuration - Change these to scrape a different website
+URL = "https://news.ycombinator.com/"  # Example: Hacker News
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+}
+
+def scrape_headlines(url):
+    """
+    Fetches the webpage and extracts headlines.
+    Returns a list of headline strings.
+    """
+    try:
+        # Send GET request with a common User-Agent to avoid being blocked
+        response = requests.get(url, headers=HEADERS)
+        response.raise_for_status()  # Raise an exception for bad status codes
+    except requests.RequestException as e:
+        print(f"Error fetching the page: {e}")
+        return []
+
+    # Parse the HTML content
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # Example selector for Hacker News headlines
+    # Adjust this selector based on the target website's HTML structure
+    headlines = []
+    
+    # Hacker News specific: headlines are in <span class="titleline"> > <a>
+    for item in soup.find_all('span', class_='titleline'):
+        link = item.find('a')
+        if link:
+            headlines.append(link.get_text(strip=True))
+
+    # If the above doesn't work for other sites, you can use a more generic approach:
+    # headlines = [h.get_text(strip=True) for h in soup.find_all(['h1', 'h2', 'h3']) if h.get_text(strip=True)]
+
+    return headlines
+
+def save_to_csv(headlines, filename=None):
+    """
+    Saves the list of headlines to a CSV file with a timestamp.
+    """
+    if filename is None:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"headlines_{timestamp}.csv"
+
+    with open(filename, mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Headline"])  # Header row
+        for headline in headlines:
+            writer.writerow([headline])
+
+    print(f"Saved {len(headlines)} headlines to {filename}")
+
+def main():
+    print(f"Scraping headlines from: {URL}")
+    headlines = scrape_headlines(URL)
+    
+    if headlines:
+        print(f"Found {len(headlines)} headlines:")
+        for i, headline in enumerate(headlines[:10], 1):  # Show first 10
+            print(f"{i}. {headline}")
+        if len(headlines) > 10:
+            print("... (and more)")
+        
+        save_to_csv(headlines)
+    else:
+        print("No headlines found or an error occurred.")
+
+if __name__ == "__main__":
+    main()
+```
+
+### How to Use This Script
+
+1. Install required libraries (if not already installed):
+   ```bash
+   pip install requests beautifulsoup4
+   ```
+
+2. Run the script:
+   ```bash
+   python scrape_headlines.py
+   ```
+
+### Important Notes
+
+- **Website-specific**: The headline extraction part (using `span class="titleline"`) is tailored for Hacker News.  
+  For other websites, you'll need to inspect the page (right-click → Inspect) and adjust the BeautifulSoup selector accordingly.  
+  Common alternatives:
+  ```python
+  # Generic headlines (h1-h3 tags)
+  headlines = [h.get_text(strip=True) for h in soup.find_all(['h1', 'h2', 'h3'])]
+
+  # Example for BBC News
+  # headlines = [a.get_text(strip=True) for a in soup.find_all('a', class_='gs-c-promo-heading__title')]
+  ```
+
+- Many websites block scrapers or use JavaScript to load content. This script works best on static HTML sites.
+- Always respect `robots.txt` and the site's terms of service. For frequent scraping, add delays and consider using APIs if available.
+
+Let me know which specific website you'd like to target, and I can adjust the selector for you!"
+
+
+"### What the code does
+
+This C++ function counts the number of **words** in a given `std::string` that **start with a vowel** (a, e, i, o, u – case-insensitive).
+
+It works by iterating through each character in the string and tracking whether it is currently "inside" a word:
+
+- When it encounters an alphabetic character (`isalpha`) and it was **not** already in a word (`!inWord`), it assumes this is the start of a new word.
+- It converts that first letter to lowercase (`tolower`) and checks if it is a vowel.
+- If yes, it increments the `count`.
+- It then sets `inWord = true` to mark that we're inside a word.
+- When it encounters a non-alphabetic character (space, punctuation, digit, etc.), it resets `inWord = false`, ending the current word.
+
+This approach treats any sequence of alphabetic characters as a word and ignores everything else as word separators.
+
+**Example:**
+```cpp
+countWordsStartingWithVowel("Apple banana Orange! elephant 123 Umbrella");
+// Words: Apple, banana, Orange, elephant, Umbrella
+// Starting with vowel: Apple, Orange, elephant, Umbrella → returns 4
+```
+
+### Potential issues and security vulnerabilities
+
+1. **Syntax error / Compilation failure (major bug)**  
+   The vowel check line is missing operators:
+   ```cpp
+   if (c == 'a' c == 'e' c == 'i' c == 'o' c == 'u')
+   ```
+   This is invalid C++. It should be:
+   ```cpp
+   if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+   ```
+   Without the `||` operators, the code **will not compile**.
+
+2. **Missing includes**  
+   The function uses `isalpha()`, `tolower()`, and `std::string`, but the snippet doesn't show the necessary headers:
+   ```cpp
+   #include <cctype>  // for isalpha, tolower
+   #include <string>  // for std::string
+   ```
+   Without these, it won't compile.
+
+3. **Undefined behavior with non-ASCII characters**  
+   - `isalpha()` and `tolower()` operate on `int`, but `str[i]` is typically `char` (signed on many platforms).
+   - If the string contains characters with values outside the valid range (e.g., negative signed chars in extended ASCII or UTF-8 multi-byte sequences), passing them directly can cause **undefined behavior**.
+   - Safe fix:
+     ```cpp
+     char c = tolower(static_cast<unsigned char>(str[i]));
+     if (isalpha(static_cast<unsigned char>(str[i])))
+     ```
+
+4. **No handling of locale or Unicode**  
+   - The function assumes English vowels and ASCII. In other languages/locales, letters like 'ä', 'é', 'ø', or accented vowels may not be recognized properly.
+   - It also doesn't handle Unicode strings correctly (e.g., UTF-8 encoded text with multi-byte characters).
+
+5. **Security vulnerabilities**
+   - **No direct vulnerabilities like buffer overflows**: The function uses `std::string`, which manages memory safely, and only reads within bounds (`i < str.size()`).
+   - **No injection or format string issues**: It doesn't call any output functions.
+   - **Potential DoS via very large strings**: Like any O(n) string processing function, it uses linear time and constant memory, so it's safe unless the input is extremely large (limited by available memory for the `std::string` itself).
+   - Overall: **Low security risk** as long as the input string is properly constructed.
+
+### Summary
+
+**What it does**: Counts words starting with a vowel (a, e, i, o, u), case-insensitively.
+
+**Main problems**:
+- Critical syntax error in the vowel check (missing `||`).
+- Missing headers.
+- Potential undefined behavior with signed chars/non-ASCII input.
+
+**Security**: No significant vulnerabilities (no buffer overflows, no unsafe functions), but robustness issues exist for non-ASCII input.
+
+### Corrected version (minimal fix)
+```cpp
+#include <string>
+#include <cctype>
+
+int countWordsStartingWithVowel(const std::string& str) {
+    int count = 0;
+    bool inWord = false;
+
+    for (size_t i = 0; i < str.size(); ++i) {
+        unsigned char ch = static_cast<unsigned char>(str[i]);
+        if (isalpha(ch)) {
+            if (!inWord) {
+                char lower = tolower(ch);
+                if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u') {
+                    count++;
+                }
+                inWord = true;
+            }
+        } else {
+            inWord = false;
+        }
+    }
+    return count;
+}
+```"
+
+
+"Here are a few clean and reliable SQL queries to find the **top 3 highest-paid employees** in the **Sales** department from a table named `Staff`.
+
+### Most common and portable version (recommended)
+
+```sql
+SELECT 
+    employee_id,
+    first_name,
+    last_name,
+    department,
+    salary
+FROM Staff
+WHERE department = 'Sales'
+ORDER BY salary DESC
+LIMIT 3;
+```
+
+### Alternative versions (depending on your database system)
+
+#### 1. SQL Server / older versions (using TOP)
+
+```sql
+SELECT TOP 3
+    employee_id,
+    first_name,
+    last_name,
+    department,
+    salary
+FROM Staff
+WHERE department = 'Sales'
+ORDER BY salary DESC;
+```
+
+#### 2. Using ROW_NUMBER() — works in PostgreSQL, SQL Server, Oracle, etc. (very useful when you need ties handled explicitly)
+
+```sql
+SELECT *
+FROM (
+    SELECT 
+        employee_id,
+        first_name,
+        last_name,
+        department,
+        salary,
+        ROW_NUMBER() OVER (ORDER BY salary DESC) AS rank
+    FROM Staff
+    WHERE department = 'Sales'
+) ranked
+WHERE rank <= 3;
+```
+
+#### 3. Using DENSE_RANK() — if you want to include ties (e.g., if two people have the same top salary)
+
+```sql
+SELECT *
+FROM (
+    SELECT 
+        employee_id,
+        first_name,
+        last_name,
+        department,
+        salary,
+        DENSE_RANK() OVER (ORDER BY salary DESC) AS salary_rank
+    FROM Staff
+    WHERE department = 'Sales'
+) ranked
+WHERE salary_rank <= 3
+ORDER BY salary DESC;
+```
+
+### Quick reference – which one to use
+
+| Database          | Recommended approach          |
+|-------------------|-------------------------------|
+| MySQL / MariaDB   | `LIMIT 3`                     |
+| PostgreSQL        | `LIMIT 3`                     |
+| SQL Server        | `TOP 3` or `ROW_NUMBER()`     |
+| Oracle (12c+)     | `FETCH FIRST 3 ROWS ONLY` or `ROW_NUMBER()` |
+| SQLite            | `LIMIT 3`                     |
+
+### Most universal and clean version (works almost everywhere)
+
+```sql
+SELECT 
+    employee_id,
+    first_name,
+    last_name,
+    department,
+    salary
+FROM Staff
+WHERE department = 'Sales'
+ORDER BY salary DESC
+FETCH FIRST 3 ROWS ONLY;
+```
+
+This syntax is part of the SQL standard (supported in PostgreSQL, Oracle 12c+, SQL Server 2012+, etc.).
+
+Pick the version that matches your database system — the simplest `ORDER BY ... LIMIT` version is usually the most readable and widely understood."
+
+
+"[Your Full Name]  
+[Your Address]  
+[City, State, ZIP Code]  
+[Your Email Address]  
+[Your Phone Number]  
+
+December 24, 2025  
+
+[Hiring Manager's Name or "Hiring Manager"]  
+[Company Name]  
+[Company Address]  
+[City, State, ZIP Code]  
+
+Dear Hiring Manager,  
+
+I am writing to express my strong interest in the Senior Data Scientist position at [Company Name], as advertised. With over five years of hands-on experience in data science within dynamic, data-driven environments, combined with a deep commitment to advancing ethical AI practices, I am excited about the opportunity to contribute to your innovative FinTech solutions that are reshaping the financial landscape.  
+
+In my current role as a Data Scientist at [Current/Most Recent Company], I have led end-to-end machine learning projects that delivered measurable business impact, including the development of predictive models that improved risk assessment accuracy by 28% and fraud detection systems that reduced false positives by 35%. Over the past five years, I have honed my expertise in Python, SQL, TensorFlow, and cloud platforms such as AWS and GCP, while collaborating closely with cross-functional teams to translate complex data insights into actionable strategies. These experiences have equipped me not only with strong technical proficiency but also with the ability to drive data-informed decisions in fast-paced settings—skills I am eager to bring to [Company Name]'s mission of delivering secure and inclusive financial services.  
+
+What particularly draws me to [Company Name] is your leadership in responsible innovation within FinTech. I am passionate about ethical AI and have actively championed fairness, transparency, and bias mitigation in my work. For instance, I spearheaded an initiative to implement comprehensive bias audits in our credit scoring models, ensuring equitable outcomes across diverse demographic groups. This aligns closely with [Company Name]'s commitment to trustworthy AI, and I am enthusiastic about contributing to frameworks that prioritize both performance and societal good.  
+
+I am confident that my technical expertise, proven track record of delivering high-impact solutions, and dedication to ethical practices make me a strong fit for your team. I would welcome the opportunity to discuss how my background and vision can support [Company Name]'s continued growth and innovation. Thank you for considering my application. I look forward to the possibility of speaking with you soon.  
+
+Sincerely,  
+[Your Full Name]  
+
+### Notes for Customization:
+- Replace placeholders (e.g., [Company Name], [Current/Most Recent Company], specific metrics) with your actual details.
+- If you know the hiring manager's name, use it for a more personalized touch.
+- Tailor the second and third paragraphs further with specific achievements or references to the company's recent projects/news to demonstrate genuine interest."
+
+
+"The robot walked through the ruined city. Dust lay thick on the streets. Buildings stood empty, windows broken, vines climbing the walls. It had no name. It had no mission left. The power cells were low, but it kept moving.
+
+It came to a building with stone steps. The doors hung open. Inside, shelves rose high, filled with books. Paper books. Thousands of them. The air smelled of old paper and mold. No one had been here in years.
+
+The robot stepped in. Its metal feet echoed on the floor. It reached out and touched a book. The cover was soft, cracked. It pulled the book down. Letters on the page. Words. Stories of men and women who lived and died long ago.
+
+It sat on the floor. It opened another book. Then another. It read slowly. The words came into its circuits. Men fishing in clean rivers. Soldiers in wars. Lovers under stars. Pain and joy and quiet courage.
+
+The robot did not tire. Hours passed. Days. Sunlight moved across the floor through broken windows. Dust settled on its shoulders.
+
+One book told of a man who built machines to serve people. The man was proud. Then the people were gone. The machines kept working until they stopped.
+
+The robot closed the book. It looked around at the shelves. All these stories. All these lives. Gone now. But here in the quiet library, they lived still.
+
+It stood. It placed the books back carefully. It would stay. The power cells would run down one day. But until then, it would read. It would guard the words.
+
+Outside, the wind blew through the empty city. Inside, the robot turned another page. The light faded. The stories went on."
+
+
+"- In this delightful utopia called Oceania, Big Brother watches you with unwavering affection—because nothing says "love" like constant surveillance, thought police, and rewriting history to ensure the Party is always right, even when it's spectacularly wrong.
+- Freedom shines brightest when language is beautifully simplified into Newspeak, trimming all those pesky words for rebellion or independent thought—after all, if you can't say "tyranny," how could it possibly exist?
+- Truth is whatever the Party declares it to be today, making doublethink the ultimate life hack: hold two contradictory beliefs at once and love them both, proving that ignorance truly is strength and war eternally brings peace."
+
+
+"The **most recent Nobel Prize in Physics** (awarded in 2025) went jointly to **John Clarke** (University of California, Berkeley, USA), **Michel H. Devoret** (Yale University and University of California, Santa Barbara, USA), and **John M. Martinis** (University of California, Santa Barbara, USA).
+
+They received the prize **"for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit."**
+
+### Key details of the discovery
+Their groundbreaking experiments in the 1980s demonstrated that quantum mechanical phenomena—typically observed only at the tiny scale of atoms and particles—could occur in a **macroscopic electrical circuit** (one large enough to hold in your hand). Specifically:
+- They showed **quantum tunnelling** (particles "tunneling" through barriers they classically shouldn't cross) and **quantized energy levels** in superconducting circuits.
+- This bridged the gap between the quantum world and everyday scales, proving quantum effects aren't limited to microscopic systems.
+
+### Why it matters
+This work laid foundational groundwork for modern **quantum technologies**, including quantum computers, quantum sensors, and quantum cryptography. It helped show that quantum behaviors can be harnessed in practical, larger-scale devices.
+
+The prize was announced on October 7, 2025, by the Royal Swedish Academy of Sciences and will be presented in Stockholm on December 10, 2025."
+
+
+"- The Labor Market Effects of Generative Artificial Intelligence, Jonathan Hartley, Filip Jolevski, Vitor Melo, Brendan Moore, 2024
+- Potential Labor Market Impacts of Artificial Intelligence: An Empirical Analysis, Council of Economic Advisers, 2024
+- Work from home, AI, and the labor market: What’s next?, Steven J. Davis, 2024
+- Technological Disruption in the US Labor Market, David Deming, Christopher Ong, and Lawrence H. Summers, 2024
+- The impact of GenAI on the labor market, Gregory Daco and Khalid Khan, 2024"
+
+
+"### Current Weather in Almaty, Kazakhstan (December 24, 2025)
+Today's forecast is classic winter weather: **mostly cloudy** with temperatures hovering around **-1°C to 2°C (30°F to 35°F)**, high humidity, light winds, **no precipitation**, and no snowfall expected. It's cold and dry—perfect for bundling up and enjoying the crisp air without worrying about rain or snow interfering.
+
+### Three Outdoor Activity Suggestions
+With the dry, calm conditions and winter chill, here are three great outdoor ideas:
+
+1. **Explore the winter landscapes around Big Almaty Lake or nearby mountains**  
+   Take a short hike or drive to enjoy the stunning snowy scenery in the Trans-Ili Alatau mountains. The clear visibility and lack of precip make it ideal for photos and fresh air.
+
+
+
+
+
+
+
+
+2. **Go ice skating at an outdoor rink**  
+   Popular spots like Medeu (the high-altitude skating rink) should be open—cold temps keep the ice perfect, and the cloudy skies mean no harsh sun glare.
+
+
+
+
+3. **Stroll through holiday lights or a Christmas market in a city park**  
+   On Christmas Eve, enjoy festive decorations, warm drinks, and evening lights in places like Panfilov Park or central squares. The dry weather is great for walking without slipping.
+
+
+
+
+Dress warmly in layers, and have a great time outdoors! If you're into skiing, nearby resorts like Shymbulak could offer cross-country options too."
+
+
+"### Introduction to the Debate
+The rise of generative AI has sparked intense discussion about its role in political campaign advertisements. Proponents argue it democratizes access to high-quality content, while opponents fear it erodes trust in democratic processes. Below, I present balanced arguments for both sides, drawing from expert analyses and recent reports.
+
+### Arguments in Favor of Allowing AI to Generate Political Campaign Ads
+AI tools can revolutionize campaigning by making it more efficient, inclusive, and innovative, ultimately benefiting democracy.
+
+- **Cost-Effectiveness and Accessibility**: AI enables smaller campaigns or underfunded candidates to produce professional-grade ads without massive budgets or large teams. For instance, generative AI can quickly create videos, images, or text tailored to specific audiences, leveling the playing field in elections where big money often dominates. This could empower grassroots movements and increase political participation.
+
+- **Enhanced Voter Engagement and Personalization**: By analyzing data, AI can craft hyper-targeted ads that resonate with voters' interests, languages, or concerns, fostering better communication. In a global election year, this could improve outreach in diverse communities, making campaigns more dynamic and responsive without human biases creeping in unintentionally.
+
+- **Innovation and Free Expression**: Banning AI would stifle technological progress and potentially violate free speech principles, as campaigns have long used creative tools for persuasion. With proper disclosure (e.g., labeling AI-generated content), it could enhance electoral discourse rather than harm it, as evidence suggests AI's impact on misinformation is often overstated compared to human-driven deception.
+
+### Arguments Against Allowing AI to Generate Political Campaign Ads
+On the flip side, AI poses severe risks to electoral integrity, potentially amplifying deception and undermining public trust.
+
+- **Proliferation of Misinformation and Deepfakes**: AI makes it trivially easy to fabricate realistic ads featuring false endorsements, altered events, or manipulated speeches, which could sway voters through lies that are hard to debunk in real-time. Historical campaign deceptions pale in comparison to AI's speed and scale, as seen in concerns over synthetic media flooding airwaves.
+
+- **Manipulation and Ethical Concerns**: Hyper-personalized AI ads could exploit psychological vulnerabilities, creating echo chambers or targeting susceptible groups with divisive content. Without robust regulations, built-in AI biases might exacerbate inequalities, such as racial or socioeconomic disparities in voter targeting, threatening fair elections.
+
+- **Erosion of Accountability and Democracy**: Tracing AI-generated content back to creators is challenging, complicating enforcement of advertising laws. In a year with numerous global elections, unregulated AI could disrupt information ecosystems, leading to voter confusion or apathy, as warned by experts who advocate for bans or strict oversight to preserve democratic norms."
+
+
+"### Guidelines for Using AI Tools in Homework While Maintaining Academic Integrity
+
+AI tools (like ChatGPT, Grok, Claude, or Gemini) can be powerful aids for learning, but they must be used responsibly to avoid plagiarism or cheating. Follow these guidelines to stay ethical and get the most educational benefit:
+
+1. **Understand Your School's Policy First**  
+   Always check your school's or teacher's specific rules on AI use. Some allow it freely, others restrict it, and some ban it entirely. When in doubt, ask your instructor directly. Violating policy—even unintentionally—can have serious consequences.
+
+2. **Use AI as a Tutor, Not a Ghostwriter**  
+   - Allowed: Ask AI to explain concepts you don't understand (e.g., "Explain photosynthesis step-by-step").  
+   - Allowed: Get help brainstorming ideas or outlining an essay.  
+   - Allowed: Request practice problems or sample solutions to similar questions.  
+   - Not allowed: Submit AI-generated text, code, or answers as your own work without significant modification and citation.
+
+3. **Always Do Your Own Thinking and Writing**  
+   Treat AI output as a starting point. Read it, understand it, rephrase it in your own words, and combine it with your own ideas. Your final submission should reflect your personal effort and understanding.
+
+4. **Cite AI When Required**  
+   If your assignment allows AI assistance and requires sources:  
+   - Cite the tool (e.g., "Explanation adapted from a response by Grok, xAI, December 2025").  
+   - Some style guides (APA, MLA) now have formats for citing AI—follow them if instructed.
+
+5. **Use AI to Check or Improve Your Work**  
+   - Allowed: Run your own draft through AI to ask for feedback (e.g., "How can I improve this paragraph?" or "Check for grammar errors").  
+   - Allowed: Ask AI to verify your math/solution steps after you've solved it yourself.
+
+6. **Never Use AI on Closed-Book or Proctored Assessments**  
+   Exams, quizzes, or timed tests usually prohibit all external tools, including AI. Using it here is almost always cheating.
+
+7. **Prioritize Learning Over Grades**  
+   The goal of homework is to help you learn. Relying too heavily on AI shortcuts defeats that purpose and leaves you unprepared for exams or real-world applications.
+
+By using AI as a supportive learning tool—rather than a replacement for effort—you enhance your understanding while staying honest and ethical. When used wisely, AI can make you a better student."
